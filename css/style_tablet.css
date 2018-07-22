@@ -1,0 +1,86 @@
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+#slide_show{
+    float:none;
+    clear:both;
+    width: 95%;
+}
+#contacts{
+    float: none;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.telephone_number{
+    font-size: 18px;
+}
+#menu{
+    width: 100%;
+}
+.menu li {
+    margin: 15px 5px 5px 5px;
+    padding: 5px 15px; /*сделать отступ padding сверху больше*/
+    list-style: none;
+    display: inline;
+}
+.text{
+    position: absolute;
+    top:110px;
+}
+.text br{
+    display: none;
+   }
+
+#left_frame{
+    float:none;
+    clear:both;
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#left_frame div{
+    border: none;
+}
+#central_content{
+    float:none;
+    clear:both;
+    width: 95%;
+}
+#center_content_advantuge{
+    display: flex;
+    justify-content: space-around;
+}
+#center_content_advantuge .bold_18_px{
+    font-size: 14px;
+}
+#footer_line{
+    flex-flow: row wrap;
+}
+.div_footer_menu{
+    float:none;
+    clear:both;
+    width: 95%;
+    margin: 0 auto;
+
+}
+.div_footer_menu li {
+    margin: 15px 5px 5px 3px;
+    padding: 5px 10px;
+    list-style: none;
+    display: inline;
+}
+.Arial_23_px{
+    float:none;
+    clear:both;
+    font-size: 18px;
+}
+#footer_1{ order:2;}
+#footer_2{ order:1;}
+#footer_3{ order:3;}
+
+

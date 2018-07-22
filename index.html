@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MojaAustria</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-width: 980px)" href="css/style_tablet.css">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/style_mobile.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="line_header" class="display_flex space_between">
+                <div class="logo display_flex">
+                    <p class="logo_orange">Moja</p>
+                    <p class="logo_green">Austria</p>
+                </div>
+                <div id="search_form" class="display_flex ">
+                    <form class="form_search">
+                        <input type="text" placeholder="Поиск по сайту">
+                        <button type="submit"></button>
+                    </form>
+                </div>
+            </div>
+            <div id=slide_show class="slide_show float_right_clear float_left_clear">
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        <img src="images/picture_slide_1.png">
+                        <div class="text">
+                            <p>Сайт для тех, кто планирует жить в Австрии, или хочет поближе<br>познакомиться с этой страной</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/picture_slide_2.png">
+                        <div class="text">
+                            <p>Сайт для тех, кто планирует жить в Австрии, или хочет поближе<br>познакомиться с этой страной</p>
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="images/picture_slide_1.png">
+                        <div class="text">
+                            <p>Сайт для тех, кто планирует жить в Австрии, или хочет поближе<br>познакомиться с этой страной</p>
+                        </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)"></a>
+                    <a class="next" onclick="plusSlides(1)"></a>
+                </div>
+                <br>
+                <div class="dots" style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+            <div id="contacts" class="contacts">
+                <div id="telephone" class="telephone">
+                    <p>Телефон</p>
+                    <p class="telephone_number">+356 (0)6 601 530</p>
+                </div>
+                <div id="working_hours" class="working_hours margin_bottom_40px">
+                    <p>Время работы:</p>
+                    <p>пн-пт с 9.00 до 20.00</p>
+                    <p><span class="orange"> сб-вс </span>с 9.00 до 18.00</p>
+                </div>
+                <form action="#" method="get">
+                    <p><input type="image" src="images/button%20contact.png" class="button" title="Связаться с нами"></p>
+                </form>
+            </div>
+            <div id="menu" class="float_left_clear box_shadow">
+                <ul class="menu margin_bottom_30px" >
+                    <div class="content_menu">
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Статьи</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="main_content">
+        <div class="container">
+            <div id="left_frame" class="left_frame">
+                <div class="block_services">
+                    <ul class="services">
+                        <li><a href="#">Пути имиграции в Австрию</a></li>
+                        <li><a href="#">Покупка и аренда недвижимости</a></li>
+                        <li><a href="#">Полезная информация</a></li>
+                        <li><a href="#">Об Австрии</a></li>
+                        <li><a href="#">Изучаем словенский язык</a></li>
+                        <li><a href="#">Как добраться в Австрию, визы</a></li>
+                    </ul>
+                </div>
+                <div class="feedback">
+                    <p  class="bold_18_px">Обратная связь</p>
+                    <form action="" name="feedback" method="get" class="form2">
+                        <p>ФИО:</p>
+                        <input type="text" name="nick" class="size_input">
+                        <p>Email или Телефон: </p>
+                        <input type="text" name="mail_telephone" class="size_input">
+                            <p class="margin_5px">Текст сообщения:</p>
+                        <input type="text" name="message" class="size_input size_input_last-child">
+                        <p class="ccc"><input type="image" src="images/submit.png" class="button2" title="Отправить"></p>
+                    </form>
+                </div>
+            </div>
+            <div id ="central_content" class="center_content">
+                <div id="center_content_advantuge" class="center_content_advantuge">
+                    <div class="first_column">
+                        <img src="images/cow.png" alt="cows" class="pcsize" >
+                        <div class="float_right_flex">
+                            <p class="bold_18_px float_righ_flex">Почему Австрия?</p>
+                        </div>
+                            <div class="float_left_clear pad_bottom_40px">
+                                <p class="Arial_12_px">В мире очень мало стран, которые могли бы предложить Вам такое разнообразие ощущений, которое дарит своим гостям Австрия.</p>
+                                <p class="bold_14_px">Основные преимущества Австрии</p>
+                                <ul class="Arial_12_px marker_list">
+                                    <li><b>Расположение</b> <br>
+                                    <b> Безопасность</b></li>
+                                    <li>По сравнению с Латвией и Чехией <b>легко иммигрировать</b></li>
+                                    <li>– за <b>325 евро в месяц</b> страховка на всю семью и право</li>
+                                    <li>жить тут</li>
+                                </ul>
+                            </div>
+                        <form action="#" method="get">
+                            <p class="flex_end "><input type="image" src="images/read_futher.png" class="button" title="Читать далее"></p>
+                        </form>
+                    </div>
+                    <div class="second_column">
+                        <img src="images/boys.png" alt="boys" class="pcsize" >
+                        <div class="float_right_flex"><p class="bold_18_px ">Преимущества работы с нами</p></div>
+                        <div class="float_left_clear pad_right_35px ">
+                            <p class="bold_14_px">Главные достоинства нашей компани</p>
+                            <ul class="Arial_12_px marker_list">
+                                <li><b>Оказываем консультации</b> по вопросам иммиграции, налогообложения, ведения бухгалтерии, получения социальных льгот, мед. обслуживания и т.д.</li>
+                                <li>Подскажем оптимальный способ <b>выполнения требований к документам</b> гос органов</li>
+                                <li>Помощь в <b>оформлении краткосрочных виз,</b><br> поиске/брони отеля или апартаментов, аренде автомобиля</li>
+                                <li>Все Ваши накладные расходы мы стремимся уменьшить, работая с <b>проверенными бухгалтерами, нотариусом, судебными переводчиками</b></li>
+                            </ul>
+
+                        </div>
+                        <form action="#" method="get">
+                            <p class="flex_end"><input type="image" src="images/read_futher.png" class="button" title="Читать далее"></p>
+                        </form>
+                    </div>
+                </div>
+                <div class="center_content_news float_left_clear float_right_clear">
+                    <p class="bold_18_px">Новости</p>
+                    <div class="news">
+                        <div class="column1 row">
+                            <div class="one_new">
+                                <img src="images/new1.png" alt="mounties" class="picture_size_news">
+                                <p class="bold_14_px">Покорение Альп - слет любителей скалолазания </p>
+                                <p class="Arial_12_px">Прошел ежегодный слет любителей скалолазания</p>
+                                <img src="images/12.08.2012.png" alt="data" class="position_relative">
+                                <a href="#new1_more" class="float_right_more">Подробнее</a>
+                            </div>
+                            <div class="one_new">
+                                <img src="images/new2.png" alt="city" class="picture_size_news">
+                                <p class="bold_14_px">Покорение Альп</p>
+                                <p class="Arial_12_px">В середине июля 2012 года прошел ежегодный слет любителей туризма и скалолазания</p>
+                                <img src="images/12.08.2012.png" alt="data" class="position_relative">
+                                <a href="#new2_more" class="float_right_more">Подробнее</a>
+                            </div>
+                            <div class="one_new">
+                                <img src="images/new3.png" alt="mounties" class="picture_size_news">
+                                <p class="bold_14_px">Покорение Альп</p>
+                                <p class="Arial_12_px pad_bottom_10px">Прошел ежегодный слет любителей скалолазания</p>
+                                <img src="images/12.08.2012.png" alt="data" class="position_relative">
+                                <a href="#new3_more" class="float_right_more">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class=" column2 row2">
+                            <div class="one_new">
+                                <img src="images/new1.png" alt="mounties" class="picture_size_news">
+                                <p class="bold_14_px">Покорение Альп</p>
+                                <p class="Arial_12_px pad_bottom_10px">Прошел ежегодный слет любителей скалолазания</p>
+                                <img src="images/12.08.2012.png" alt="data" class="position_relative">
+                                <a href="#new4_more" class="float_right_more">Подробнее</a>
+                            </div>
+                            <div class="one_new">
+                                <img src="images/new2.png" alt="city" class="picture_size_news">
+                                <p class="bold_14_px">Покорение Альп</p>
+                                <p class="Arial_12_px pad_bottom_10px">Прошел ежегодный слет любителей скалолазания</p>
+                                <img src="images/12.08.2012.png" alt="data" class="position_relative">
+                                <a href="#new5_more" class="float_right_more">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="float_right">
+                            <a href="#" class="red Arial_12_px bold">Подписаться на расылку новостей и анонсов</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grey float_left_clear float_right_clear margin_bottom_10px "> </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container ">
+            <div id="footer_line" class="display_flex space_between">
+                <p id="footer_1" class="display_flex Tahoma_12_px ">© 2012 site.ru</p>
+                <div id="footer_2" class="display_flex div_footer_menu">
+                    <ul class="footer_menu " >
+                        <li ><a href="#" class="">Главная</a></li>
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Цены</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <p id="footer_3" class="display_flex Arial_23_px">+386 (0)1 6001 530</p>
+            </div>
+            <div class="margin_bottom_40px float_right ">
+                <p id="info_site" class="Tahoma_12_px float_left margin_top_10px margin_right_20px">info@site.ru</p>
+                <img src="images/arrow.png" alt="arrow" class="pad_15px">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
